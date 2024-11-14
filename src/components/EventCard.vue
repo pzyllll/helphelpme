@@ -1,15 +1,15 @@
 <script setup lang="ts">
 import type { Event } from '@/types'
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+//import { ref } from 'vue';
+//import { useRouter } from 'vue-router';
 import { defineProps } from 'vue';
-import FlashMessage from '@/components/FlashMessage.vue';
+//import FlashMessage from '@/components/FlashMessage.vue';
 
 const props = defineProps<{
   event: Event
 }>();
 
-const router = useRouter();
+//const router = useRouter();
 //const showFlashMessage = ref(false);
 //const flashMessage = ref('');
 //

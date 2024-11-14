@@ -1,7 +1,7 @@
 export interface Event {
-  gpa: number | undefined
-  surname: string|undefined
-  name: string|undefined
+     gpa: any
+     surname: any
+     name: any
 
      id: number
      category: string
